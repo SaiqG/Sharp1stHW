@@ -5,13 +5,13 @@ var iNum1 = int.Parse(num1);
 var iNum2 = int.Parse(num2);
 if (iNum1 > iNum2)
 {
-   Console.WriteLine("Первое число больше"); 
+    Console.WriteLine("Первое число больше");
 }
 else if (iNum1 < iNum2)
 {
-Console.WriteLine("Второе число больше"); 
+    Console.WriteLine("Второе число больше");
 }
-else 
+else
 {
-Console.WriteLine("Числа равны"); 
+    Console.WriteLine("Числа равны");
 }
