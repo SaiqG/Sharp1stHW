@@ -1,8 +1,12 @@
 ﻿Console.WriteLine("Введите два числа");
+/*
 string num1 = Console.ReadLine();
 string num2 = Console.ReadLine();
 var iNum1 = int.Parse(num1);
-var iNum2 = int.Parse(num2);
+var iNum2 = int.Parse(num2); 
+*/
+int iNum1 = int.Parse(Console.ReadLine());
+int iNum2 = int.Parse(Console.ReadLine());
 if (iNum1 > iNum2)
 {
     Console.WriteLine("Первое число больше");

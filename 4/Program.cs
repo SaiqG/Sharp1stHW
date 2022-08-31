@@ -1,11 +1,7 @@
 ﻿Console.WriteLine("Введите число");
-string num = Console.ReadLine();
-int iNum = int.Parse(num);
-Console.WriteLine($"От 1 до {iNum} следующие числа четные:");
-for (int i = 1; i <= iNum; i++)
+int num = int.Parse(Console.ReadLine());
+Console.WriteLine($"От 1 до {num} следующие числа четные:");
+for (int i = 2; i <= num; i += 2)
 {
-    if (i % 2 == 0)
-    {
-        Console.Write($"{i} ");
-    }
+    Console.Write($"{i} ");
 }
